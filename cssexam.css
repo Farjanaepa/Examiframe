@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+}
+.menu-bar a{
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+
+}
+.menu-bar{
+    display: flex;
+}
+.dropdown:hover .dropdown-container{
+    display: block;
+
+}
+.dropdown-container{
+    position: absolute;
+    background-color: brown;
+    display: none;
+}
+.menu-bar a:hover{
+    background-color: aquamarine;
+}
+.search-bar{
+    padding-top: 10px;
+    border-color: brown;
+}
+
